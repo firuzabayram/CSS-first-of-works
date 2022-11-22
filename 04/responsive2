@@ -1,0 +1,149 @@
+.umumi{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    border: 3px solid rgb(148, 43, 134);
+    width: 250px;
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+button{
+background-color: rgb(138, 41, 105);
+color: aliceblue;
+width: 80%;
+height: 40px;
+border: none;
+border-radius: 10px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+i{
+    font-size: xx-large;
+}
+.left, .right{
+    display: flex;
+}
+
+@media only screen and ( max-width: 992px){
+   
+    .umumi{
+     flex-direction: column;
+    }
+}
+
+@media only screen and ( max-width: 768px){
+   
+    .umumi{
+     flex-direction: column;
+    }
+
+    .left,.right{
+        display: flex;
+        flex-direction: column;
+    }
+}
+-----------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="umumi">
+
+       
+<div class="left">
+    <div class="card">
+        <i class="fa-brands fa-twitter"></i>
+        <h1>Twitter</h1>
+    <div class="social">
+        <div class="circle">
+        </div>
+    </div>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Recusandae minus perferendis assumenda, iusto totam doloribus tenetur 
+            accusamus ipsum, ad excepturi enim cum, cumque inventore? 
+            Eum at voluptates inventore rerum quod.</p>
+       <div class="read"> 
+       <button>read more</button>
+       </div>
+    </div>
+
+    <div class="card">
+        <i class="fa-brands fa-instagram"></i>
+        <h1>Instagram</h1>
+    <div class="social">
+        <div class="circle">
+        </div>
+    </div>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Recusandae minus perferendis assumenda, iusto totam doloribus tenetur 
+            accusamus ipsum, ad excepturi enim cum, cumque inventore? 
+            Eum at voluptates inventore rerum quod.
+        </p>
+       <div class="read"> 
+       <button>read more</button>
+       </div>
+    </div>
+
+
+</div>
+
+<div class="right">
+    <div class="card">
+        <i class="fa-brands fa-youtube"></i>
+        <h1>Youtube</h1>
+    <div class="social">
+        <div class="circle">
+        </div>
+    </div>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Recusandae minus perferendis assumenda, iusto totam doloribus tenetur 
+            accusamus ipsum, ad excepturi enim cum, cumque inventore? 
+            Eum at voluptates inventore rerum quod.</p>
+       <div class="read"> 
+       <button>read more</button>
+       </div>
+    </div>
+
+
+    <div class="card">
+        <i class="fa-brands fa-github"></i>
+        <h1>Github</h1>
+    <div class="social">
+        <div class="circle">
+        </div>
+    </div>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Recusandae minus perferendis assumenda, iusto totam doloribus tenetur 
+            accusamus ipsum, ad excepturi enim cum, cumque inventore? 
+            Eum at voluptates inventore rerum quod.</p>
+       <div class="read"> 
+       <button>read more</button>
+       </div>
+    </div>
+
+</div>
+
+</div>
+</body>
+</html>
